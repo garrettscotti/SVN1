@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Responsive HTML Email Signature</title>
+		<style type="text/css">
+		
+		/*Media Queries*/
+			@media only screen and (max-width: 651px){
+				.columns{width:100% !important;}
+				.columncontainer{display:block !important; width:100% !important;}
+			}
+			@media only screen and (min-width: 651px) {
+				.content {width: 100% !important;}
+			}
+			
+			@media only screen and (min-width: 414px) {
+				.logo {width: 280px; }
+			}
+			
+			@media (prefers-color-scheme: dark) {
+			/* Your dark mode styles: */
+
+			.dkmode {background-color: #23272e;}
+			}		
+			
+			.rollover:hover .main {max-height: 0px !important;}
+			.rollover:hover .alt {max-height: none !important;}		
+
+			.img-swap {display: block; width: 240px; height: 170px;}
+				
+			.img-swap:hover img {height: 0px;}
+
+		</style>
+		
+</head>
+
+<body>		
+	
+	<table class="dkmode" width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth" bgcolor="23272e">
+			
+		<td style="padding:10px;">
+		
+            <table class=" columns" align="left" border="0" cellspacing="0" cellpadding="0"class="deviceWidth">
+                <tr>
+                    <td valign="top" style="padding: 45px 0px 0px 40px;">
+						<img src="https:/github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/MG-Logo-wht.png?raw=true" width="240" height="207.09" border="0" alt=""/>
+					</td>
+				</tr>
+			</table>
+			
+				<table class="columns" align="left"  border="0" cellspacing="0" cellpadding="0" class="deviceWidth">
+					<tr style="font-family: sans-serif; font-size: 18px; font-weight: bold; text-transform: none; color: #ffffff; letter-spacing: 1.0px;">
+						<td valign="top"style=" padding:40px 10px 5px 40px;">
+							Rick Karr
+						</td>
+					</tr>
+					<tr style="font-family: sans-serif; font-size: 14px; text-transform: none; color: #ffffff; letter-spacing: 0.5px;">
+						<td valign="top" style="padding:1px 10px 12px 40px;">
+							Realtor | Top Producer
+						</td>
+					</tr>
+					
+						<td style="font-family: sans-serif; font-size: 12px; font-weight: bold; padding: 10px 40px 10px 40px; color:#ffffff;">
+							
+							<table border="0" cellspacing="0" cellpadding="0" >
+								<tr>
+									<td valign="top" style="padding: 0 10px 0 0;"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/icon-email-wht.png?raw=true" width="15" height="15" border="0" alt=""/>	</td>
+									<td valign="top" class="listitem" style="padding: 0 0 7px 0;"><a href="mailto:StevenMartonffy@Keyes.com" style="color: #ffffff">StevenMartonffy@Keyes.com</a></td>
+								</tr>
+								<tr>
+									<td valign="top" style="padding: 0 10px 0 0;"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/icon-website-wht.png?raw=true" width="15" height="15" border="0" alt=""/></td>
+									<td class="listitem" style="padding: 0 0 7px 0;"><a href="http://www.martonffygroup.keyes.com" style="color: #ffffff">MartonffyGroup.Keyes.com </a></td>
+								</tr>
+									<tr>
+									<td valign="top" style="padding: 0 10px 0 0;"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/icon-address-wht.png?raw=true" width="15" height="15" border="0" alt=""/></td>
+									<td class="listitem" style="color: #ffffff; padding: 0 0 7px 0;">2423 Le Jeune Road, Coral Gables, Florida 33134</td>
+								</tr>
+									<tr>
+									<td valign="top" style="padding: 0 10px 0 0;"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/icon-cell-wht.png?raw=true"width="15" height="15" border="0" alt="" /></td>
+									<td class="listitem" style="color: #ffffff; padding: 0 0 7px 0;">786.277.9258</td>
+								</tr>
+							</table>
+						
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td valign="top" style="padding: 7px 10px 0 0;"><a href="https://www.facebook.com/SteveMartonffyRealtor" target="_blank"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/facebook.png?raw=true" width="30" height="auto" border="0" alt=""/></a></td>
+
+									<td valign="top" style="padding: 7px 10px 0 0;"><a href="https://www.instagram.com/stevenmartonffy/" target="_blank"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/instagram.png?raw=true" width="30" height="auto" border="0" alt=""/></a></td>
+									
+									<td valign="top" style="padding: 7px 10px 0 0;"><a href="https://www.linkedin.com/in/steven-martonffy-9851b751/" target="_blank"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/linkedin.png?raw=true" width="auto" height="31" border="0" alt=""/></a></td>
+								</tr>
+							</table>
+								
+						</td>	
+
+				</table>
+									
+<!-- Links -->
+		<tr>
+			<td style="padding:0 10px 10px 10px;">
+				<table class="columns" align="left"  border="0" cellspacing="0" cellpadding="0">
+					<tr>	
+						<td style="padding: 20px 0 10px 40px;">
+							<a href="https://martonffygroup.keyes.com/index.php?rtype=grid" target="_blank"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/button-home-search.png?raw=true" width="240" height="auto" border="0" alt="" /></a>
+						</td>	
+					</tr>
+				</table>	
+				<table class="columns" align="left"  border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td style="padding: 20px 0 10px 40px;">
+							<a href="https://keyes.findbuyers.com/StevenMartonffy@Keyes.com" target="_blank"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/button-home-estimate.png?raw=true" width="240" height="auto" border="0" alt="" /></a>
+						</td>	
+					</tr>
+				</table>
+			</td>
+		</tr>
+					
+<!--Legal-->
+		<tr>
+			<td style="padding: 1px 40px 40px 40px;">
+			
+				<table align="left" width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td style="padding: 20px 10px 0 10px;">
+							<table width="100%" style="width: 100%;" height="1px" border="0" cellspacing="0" cellpadding="0" >
+								<tr>
+									<td bgcolor="#2e333a" height="1px" style="font-size: 1px; line-height: 1px;">
+										&nbsp;
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>	
+			
+				<table class="columns" align="left" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td style="text-align: justify; font-family: sans-serif; font-size: 10px; color: #474c54; padding: 30px 10px 30px 10px;">
+							Disclaimer: This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail or any of its contents. Please notify the sender immediately by e-mail if you have received this e-mail in error and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.		
+						</td>
+					</tr>	
+				</table>	
+				
+				<table class="columns" align="right" border="0"  border="0" cellspacing="0" cellpadding="0"class="deviceWidth" style="padding: 40px 10px 10px 40px;">
+					<tr>	
+						<td style="padding:30px 0 40px 0;">
+							<td valign="top" style="padding: 10px 7px 0 0;"><a href="#"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/Logo-Keyes-wht.png?raw=true" width="auto" height="38" border="0" alt=""/></a></td>
+							<td valign="top" style="padding: 10px 10px 0 0;"><a href="#"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/Logo-Luxury-Agent-wht.png?raw=true" width="auto" height="38" border="0" alt=""/></a></td>
+							<td valign="top" style="padding: 10px 10px 0 0;"><a href="#"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/Logo-Realtor.png?raw=true" width="auto" height="38" border="0" alt=""/></a></td>	
+							<td valign="top" style="padding: 10px 0 0 0;"><a href="#"><img src="https://github.com/MartonffyGroup/Steven-Martonffy-digital-card/blob/master/assets/Logo-EHO.png?raw=true" width="auto" height="38" border="0" alt=""/></a></td>	
+						</td>
+					</tr>			
+				</table>	
+			</td>
+		</tr>
+		
+	</table>
+	
+		</td>	
+	
+</body>
+</html>
